@@ -96,7 +96,7 @@ config_G = {
 }
 
 # TBAL
-weights_path = 'checkpoints/r512_aging_pos/latest_net_G.pth'
+weights_path = './pix2pixHD/checkpoints/r512_aging_pos/latest_net_G.pth'
 
 model = define_G(**config_G)
 pretrained_dict = torch.load(weights_path)

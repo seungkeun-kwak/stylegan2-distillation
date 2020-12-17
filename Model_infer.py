@@ -25,7 +25,7 @@ import matplotlib.pyplot as plt
 # In[ ]:
 
 
-img_url = 'http://www.reviewstar.net/newsphoto/reviewstar/news/2015/09/11/2015091116374234-1-rstarnyj.jpg'
+img_url = 'https://img.hankyung.com/photo/201904/03.19356841.1.jpg'
 img_filename = 'image.jpg'
 imageio.imwrite(img_filename, imageio.imread(img_url))
 
